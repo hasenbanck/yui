@@ -1,4 +1,4 @@
 gerber/
-.bak
-.bck
+*.bak
+*.bck
 *-bak

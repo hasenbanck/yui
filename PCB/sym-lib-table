@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name SPIFLASH)(type Legacy)(uri /home/nils/Development/yui/PCB/SPIFLASH.lib)(options "")(descr ""))
+  (lib (name OSCILLATOR)(type Legacy)(uri /home/nils/Development/yui/PCB/OSCILLATOR.lib)(options "")(descr ""))
+  (lib (name CONNECTORS)(type Legacy)(uri /home/nils/Development/yui/PCB/CONNECTORS.lib)(options "")(descr ""))
+  (lib (name yui-rescue)(type Legacy)(uri ${KIPRJMOD}/yui-rescue.lib)(options "")(descr ""))
+  (lib (name LVDS)(type Legacy)(uri /home/nils/Development/yui/PCB/LVDS.lib)(options "")(descr ""))
+)

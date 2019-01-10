@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W25X10CL
+D 1M-BIT SERIAL FLASH MEMORY WITH 4KB SECTORS AND DUAL I/O SPI
+F https://www.mouser.de/datasheet/2/949/w25x10cl_revg_021714-1489755.pdf
+$ENDCMP
+#
+#End Doc Library
