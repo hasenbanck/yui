@@ -92,23 +92,23 @@ I2S_MCLK_1
 $Comp
 L power:GND #PWR020
 U 1 1 5C37BE12
-P 8000 4100
-F 0 "#PWR020" H 8000 3850 50  0001 C CNN
-F 1 "GND" V 8005 3972 50  0000 R CNN
-F 2 "" H 8000 4100 50  0001 C CNN
-F 3 "" H 8000 4100 50  0001 C CNN
-	1    8000 4100
+P 8000 4200
+F 0 "#PWR020" H 8000 3950 50  0001 C CNN
+F 1 "GND" V 8005 4072 50  0000 R CNN
+F 2 "" H 8000 4200 50  0001 C CNN
+F 3 "" H 8000 4200 50  0001 C CNN
+	1    8000 4200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR018
 U 1 1 5C37BE88
-P 7500 4100
-F 0 "#PWR018" H 7500 3850 50  0001 C CNN
-F 1 "GND" V 7505 3972 50  0000 R CNN
-F 2 "" H 7500 4100 50  0001 C CNN
-F 3 "" H 7500 4100 50  0001 C CNN
-	1    7500 4100
+P 7500 4200
+F 0 "#PWR018" H 7500 3950 50  0001 C CNN
+F 1 "GND" V 7505 4072 50  0000 R CNN
+F 2 "" H 7500 4200 50  0001 C CNN
+F 3 "" H 7500 4200 50  0001 C CNN
+	1    7500 4200
 	0    1    1    0   
 $EndComp
 Text HLabel 8000 3600 2    50   Input ~ 0
@@ -118,20 +118,20 @@ I2S_WS_2
 Text HLabel 8000 3800 2    50   Input ~ 0
 I2S_MCLK_2
 $Comp
-L Connector_Generic:Conn_02x07_Odd_Even J5
+L Connector_Generic:Conn_02x08_Odd_Even J5
 U 1 1 5C37E504
 P 7700 3800
 F 0 "J5" H 7750 4317 50  0000 C CNN
-F 1 "Conn_02x07_Odd_Even" H 7750 4226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 7700 3800 50  0001 C CNN
+F 1 "Conn_02x08_Odd_Even" H 7750 4226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 7700 3800 50  0001 C CNN
 F 3 "~" H 7700 3800 50  0001 C CNN
 	1    7700 3800
 	1    0    0    -1  
 $EndComp
 Text HLabel 7500 3900 0    50   Input ~ 0
-RST1
+RESET1
 Text HLabel 8000 3900 2    50   Input ~ 0
-RST2
+RESET2
 Text HLabel 8000 4000 2    50   Input ~ 0
 I2C_SDA
 Text HLabel 7500 4000 0    50   Input ~ 0
@@ -326,4 +326,8 @@ F 3 "https://www.cui.com/product/resource/pdf/rcj-01x.pdf" H 2250 6500 50  0001 
 $EndComp
 Text HLabel 5000 6700 2    50   Input ~ 0
 SPDIF_COAXIAL
+Text HLabel 7500 4100 0    50   Input ~ 0
+VDD3V3
+Text HLabel 8000 4100 2    50   Input ~ 0
+VDD3V3
 $EndSCHEMATC

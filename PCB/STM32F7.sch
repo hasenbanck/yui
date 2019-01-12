@@ -709,4 +709,12 @@ Text HLabel 3900 6600 0    50   Input ~ 0
 SPDIF_TOSLINK
 Text HLabel 7200 2900 2    50   Input ~ 0
 SS
+Text HLabel 3900 5200 0    50   Input ~ 0
+CRESET
+Text HLabel 3900 5100 0    50   Input ~ 0
+CDONE
+Text HLabel 7200 9000 2    50   Input ~ 0
+RESET1
+Text HLabel 7200 8900 2    50   Input ~ 0
+RESET2
 $EndSCHEMATC
